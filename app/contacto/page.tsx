@@ -458,7 +458,7 @@ export default function ContatoPage() {
       </footer>
 
       {/* ══════════════════════════════════════════════════════════ CSS */}
-      <style>{`
+      <style precedence="default">{`
         /* ══ DESIGN TOKENS ══ */
         :root {
           --navy:    #091e3a;
