@@ -68,7 +68,7 @@ const Header = () => (
   <header className="hdr" role="banner">
     <div className="wrap hdr__in">
       <Link href="/" className="hdr__logo" aria-label="Espaço Invisível – Página inicial">
-        <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" />
+        <Image src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" width={120} height={40} />
       </Link>
       <input type="checkbox" id="nav-chk" className="nav-chk" aria-hidden="true" suppressHydrationWarning />
       <label htmlFor="nav-chk" className="nav-ham" aria-label="Abrir menu de navegação">
@@ -90,7 +90,7 @@ const Footer = () => (
   <footer className="footer" role="contentinfo">
     <div className="footer__in wrap">
       <div className="footer__brand">
-        <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" />
+        <Image src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" width={120} height={40} />
         <p>Gerador gratuito de espaços invisíveis para jogos e redes sociais.</p>
         <div className="footer__soc">
           <a href="https://www.facebook.com/profile.php?id=61573868490259" target="_blank" rel="noopener noreferrer" aria-label="Facebook">fb</a>
@@ -183,7 +183,7 @@ export default function BlogInstagramBio() {
                 Você já se perguntou como alguns influenciadores e marcas do Instagram têm aquelas biografias perfeitamente espaçadas e formatadas profissionalmente? O segredo não são aplicativos sofisticados ou recursos especiais do Instagram – são os espaços invisíveis. Esses caracteres ocultos permitem que você crie quebras de linha limpas, espaçamento perfeito e formatação elegante que as ferramentas de edição padrão do Instagram não oferecem.
               </p>
               <figure className="fig-img">
-                <img src="/criar-biografias-do-Instagram-com-o-Espacos-Invisiveis.webp" alt="criar biografias do Instagram com o Espaços Invisíveis" width={1200} height={675} loading="lazy" />
+                <Image src="/criar-biografias-do-Instagram-com-o-Espacos-Invisiveis.webp" alt="criar biografias do Instagram com o Espaços Invisíveis" width={1200} height={675} loading="lazy" />
                 <figcaption>criar biografias do Instagram com o Espaços Invisíveis</figcaption>
               </figure>
               <p>
@@ -254,7 +254,7 @@ export default function BlogInstagramBio() {
             <div className="prose">
               <h2 id="h2-guia" className="sh2">Guia passo a passo para adicionar espaços invisíveis</h2>
               <figure className="fig-img">
-                <img src="/criar-biografias-do-Instagram-com-o-Espacos-Invisiveis-1.webp" alt="Passo a passo para adicionar espaços invisíveis à bio do Instagram" width={1200} height={675} loading="lazy" />
+                <Image src="/criar-biografias-do-Instagram-com-o-Espacos-Invisiveis-1.webp" alt="Passo a passo para adicionar espaços invisíveis à bio do Instagram" width={1200} height={675} loading="lazy" />
                 <figcaption>criar biografias do Instagram com o Espaços Invisíveis - 1</figcaption>
               </figure>
 

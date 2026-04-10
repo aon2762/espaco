@@ -4,6 +4,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import Link from "next/link";
+import Image from "next/image";
 
 // ─── SEO — exact meta title, description, canonical, hreflang pt-BR ───────────
 export const metadata: Metadata = {
@@ -102,10 +103,12 @@ export default function ContatoPage() {
             className="hdr__logo"
             aria-label="Espaço Invisível – Página inicial"
           >
-            <img
+            <Image
               src="/logo.svg"
               alt="Espaço Invisível Logo"
               className="logo-img"
+              width={120}
+              height={40}
             />
           </Link>
           <input
@@ -375,10 +378,12 @@ export default function ContatoPage() {
       <footer className="footer">
         <div className="wrap footer__in">
           <div className="footer__brand">
-            <img
+            <Image
               src="/logo.svg"
               alt="Espaço Invisível Logo"
               className="logo-img"
+              width={120}
+              height={40}
             />
             <p>
               Ferramentas gratuitas para criatividade digital, espaços
