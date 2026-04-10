@@ -135,6 +135,8 @@ export default function HomePage() {
               src="/logo.svg"
               alt="Espaço Invisível Logo"
               className="logo-img"
+              width="220"
+              height="80"
             />
           </Link>
           <input type="checkbox" id="nav-chk" className="nav-chk" aria-hidden="true" />
@@ -827,6 +829,8 @@ export default function HomePage() {
               src="/logo.svg"
               alt="Espaço Invisível Logo"
               className="logo-img"
+              width="220"
+              height="80"
             />
             <p>Gerador gratuito de espaços invisíveis para jogos e redes sociais.</p>
             <div className="footer__soc">
