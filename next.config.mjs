@@ -24,6 +24,7 @@ const nextConfig = {
       '@/components',
       '@/lib',
     ],
+    inlineCss: true,
   },
 };
 

@@ -78,7 +78,7 @@ export default function BlogEspacosInvisiveisWhatsApp() {
       <header className="hdr" role="banner">
         <div className="wrap hdr__in">
           <Link href="/" className="hdr__logo" aria-label="Espaço Invisível – Página inicial">
-            <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" />
+            <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" width="220" height="80" />
           </Link>
 
           {/* FIX: suppressHydrationWarning stops browser extensions (password managers)
@@ -755,7 +755,7 @@ export default function BlogEspacosInvisiveisWhatsApp() {
       <footer className="footer" role="contentinfo">
         <div className="footer__in wrap">
           <div className="footer__brand">
-            <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" />
+            <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" width="220" height="80" />
             <p>Gerador gratuito de espaços invisíveis para jogos e redes sociais.</p>
             <div className="footer__soc">
               <a href="https://www.facebook.com/profile.php?id=61573868490259" target="_blank" rel="noopener noreferrer" aria-label="Facebook">fb</a>

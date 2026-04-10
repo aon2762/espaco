@@ -82,7 +82,7 @@ export default function LetrasDiferentesPage() {
       <header className="hdr" role="banner">
         <div className="wrap hdr__in">
           <Link href="/" className="hdr__logo" aria-label="Espaco Invisivel – Pagina inicial">
-            <img src="/logo.svg" alt="Espaco Invisivel Logo" className="logo-img" />
+            <img src="/logo.svg" alt="Espaco Invisivel Logo" className="logo-img" width="220" height="80" />
           </Link>
           <input type="checkbox" id="nav-chk" className="nav-chk" aria-hidden="true" />
           <label htmlFor="nav-chk" className="nav-ham" aria-label="Abrir menu de navegacao">
@@ -548,7 +548,7 @@ export default function LetrasDiferentesPage() {
       <footer className="footer" role="contentinfo">
         <div className="footer__in wrap">
           <div className="footer__brand">
-            <img src="/logo.svg" alt="Espaco Invisivel Logo" className="logo-img" />
+            <img src="/logo.svg" alt="Espaco Invisivel Logo" className="logo-img" width="220" height="80" />
             <p>Gerador gratuito de espacos invisiveis e letras diferentes para jogos e redes sociais.</p>
             <div className="footer__soc">
               <a href="https://www.facebook.com/profile.php?id=61573868490259" target="_blank" rel="noopener noreferrer" aria-label="Facebook">fb</a>

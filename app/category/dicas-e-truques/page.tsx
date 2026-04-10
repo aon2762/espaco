@@ -11,7 +11,7 @@ const Header = () => (
   <header className="hdr">
     <div className="wrap hdr__in">
       <Link href="/" className="hdr__logo">
-        <img src="/logo.svg" alt="Logo" className="logo-img" />
+        <img src="/logo.svg" alt="Logo" className="logo-img" width="220" height="80" />
       </Link>
       <nav className="hdr__nav">
         <ul>
@@ -29,7 +29,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="footer__in wrap">
       <div className="footer__brand">
-        <img src="/logo.svg" alt="Logo" className="logo-img" />
+        <img src="/logo.svg" alt="Logo" className="logo-img" width="220" height="80" />
         <p>Gerador gratuito de espaços invisíveis.</p>
       </div>
     </div>

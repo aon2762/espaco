@@ -99,6 +99,8 @@ export default function TermosPage() {
               src="/logo.svg"
               alt="Espaço Invisível Logo"
               className="logo-img"
+              width="220"
+              height="80"
             />
           </Link>
           <input
@@ -388,6 +390,8 @@ export default function TermosPage() {
               src="/logo.svg"
               alt="Espaço Invisível Logo"
               className="logo-img"
+              width="220"
+              height="80"
             />
             <p>
               Ferramentas gratuitas para criatividade digital, espaços
