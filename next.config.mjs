@@ -18,6 +18,14 @@ const nextConfig = {
     ],
   },
 
+  // ⚡ TARGET MODERN BROWSERS (removes polyfills)
+  targets: {
+    chrome: 90,
+    firefox: 87,
+    safari: 14,
+    edge: 90,
+  },
+
   // ⚡ EXPERIMENTAL OPTIMIZATIONS
   experimental: {
     optimizePackageImports: [
