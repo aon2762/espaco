@@ -345,7 +345,7 @@ export default function SobreNosPage() {
       </footer>
 
       {/* ══════════════════════════════════════════════════════════ CSS */}
-      <style>{`
+      <style precedence="default">{`
         /* ══ DESIGN TOKENS ══ */
         :root {
           --navy:    #091e3a;

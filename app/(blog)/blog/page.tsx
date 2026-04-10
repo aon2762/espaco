@@ -175,7 +175,7 @@ export default function BlogPage() {
 
 function BlogStyles() {
   return (
-    <style>{`
+    <style precedence="default">{`
       :root{--navy:#091e3a;--navy2:#0f3272;--blue:#1a56db;--orange:#f05a1a;--orange2:#ff7a3d;--bg:#f3f6fb;--bgtint:#eaf0fb;--surf:#ffffff;--bdr:#dde5f5;--txt:#111827;--txt2:#374151;--muted:#6b7280;--r:12px;--rl:20px;--sh:0 4px 24px rgba(9,30,58,.09);--shl:0 12px 48px rgba(9,30,58,.15);--tr:.22s cubic-bezier(.4,0,.2,1);--fh:'Syne',sans-serif;--fb:'DM Sans',system-ui,sans-serif}
       *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
       html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}

@@ -84,7 +84,7 @@ export default function DiscussoesPage() {
 }
 
 function Styles() {
-  return <style>{`
+  return <style precedence="default">{`
     :root{--navy:#091e3a;--blue:#1a56db;--orange:#f05a1a;--bg:#f3f6fb;--surf:#fff;--bdr:#dde5f5;--txt:#111827;--txt2:#374151;--muted:#6b7280;--r:12px;--rl:20px;--tr:.22s}
     *{box-sizing:border-box;margin:0;padding:0}
     body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--txt)}

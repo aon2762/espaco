@@ -581,7 +581,7 @@ export default function LetrasDiferentesPage() {
       </footer>
 
       {/* ═══════════════════════════════════════════════════════ GLOBAL STYLES */}
-      <style>{`
+      <style precedence="default">{`
         /* ── Design tokens ── */
         :root {
           --navy:    #091e3a;
