@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
+import Image from "next/image";
 import { getAllPosts, getAllCategories, formatDate, type BlogPost } from "@/lib/blog-data";
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ const Header = () => (
   <header className="hdr" role="banner">
     <div className="wrap hdr__in">
       <Link href="/" className="hdr__logo" aria-label="Espaço Invisível – Página inicial">
-        <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" />
+        <Image src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" width={120} height={40} />
       </Link>
       <input type="checkbox" id="nav-chk" className="nav-chk" aria-hidden="true" suppressHydrationWarning />
       <label htmlFor="nav-chk" className="nav-ham" aria-label="Abrir menu de navegação"><span /><span /><span /></label>
@@ -33,7 +34,7 @@ const Footer = () => (
   <footer className="footer" role="contentinfo">
     <div className="footer__in wrap">
       <div className="footer__brand">
-        <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" />
+        <Image src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" width={120} height={40} />
         <p>Gerador gratuito de espaços invisíveis para jogos e redes sociais.</p>
         <div className="footer__soc">
           <a href="https://www.facebook.com/profile.php?id=61573868490259" target="_blank" rel="noopener noreferrer" aria-label="Facebook">fb</a>
@@ -117,10 +118,12 @@ export default function BlogPage() {
                   <article key={post.slug} className="bcard">
                     {post.image && (
                       <Link href={`/${post.slug}`} className="bcard__img-wrap">
-                        <img 
+                        <Image 
                           src={post.image} 
                           alt={post.title}
                           loading="lazy"
+                          width={800}
+                          height={450}
                         />
                       </Link>
                     )}
