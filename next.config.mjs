@@ -18,9 +18,6 @@ const nextConfig = {
     ],
   },
 
-  // ⚡ SWC MINIFICATION (removes polyfills automatically)
-  swcMinify: true,
-
   // ⚡ EXPERIMENTAL OPTIMIZATIONS
   experimental: {
     optimizePackageImports: [

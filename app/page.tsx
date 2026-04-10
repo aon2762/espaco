@@ -5,8 +5,15 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import Link from "next/link";
 import Image from "next/image";
-import { InvisibleTool } from "@/components/InvisibleTool";
-import { NickGrid }      from "@/components/NickGrid";
+import dynamic from "next/dynamic";
+
+const InvisibleTool = dynamic(() => import("@/components/InvisibleTool").then(m => ({ default: m.InvisibleTool })), {
+  loading: () => <div className="min-h-[200px]" />,
+});
+
+const NickGrid = dynamic(() => import("@/components/NickGrid").then(m => ({ default: m.NickGrid })), {
+  loading: () => <div className="min-h-[100px]" />,
+});
 
 // ─── SEO — exact meta title, description, canonical, hreflang pt-BR ───────────
 export const metadata: Metadata = {
@@ -112,11 +119,6 @@ export default function HomePage() {
 
       {/* ── hreflang pt-BR (in addition to Next.js alternates) ── */}
       <link rel="alternate" hrefLang="pt-BR" href="https://espacoinvisivel.com.br/" />
-
-      {/* ── Fonts ── */}
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
 
       {/* ═══════════════════════════════════════════════════════ HEADER */}
       <header className="hdr" role="banner">

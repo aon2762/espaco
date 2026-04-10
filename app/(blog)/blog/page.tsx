@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Script from "next/script";
 import Image from "next/image";
 import { getAllPosts, getAllCategories, formatDate, type BlogPost } from "@/lib/blog-data";
 
