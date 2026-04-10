@@ -67,7 +67,7 @@ const Header = () => (
   <header className="hdr" role="banner">
     <div className="wrap hdr__in">
       <Link href="/" className="hdr__logo" aria-label="Espaço Invisível – Página inicial">
-        <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" />
+        <Image src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" width={120} height={40} />
       </Link>
       <input type="checkbox" id="nav-chk" className="nav-chk" aria-hidden="true" suppressHydrationWarning />
       <label htmlFor="nav-chk" className="nav-ham" aria-label="Abrir menu de navegação"><span /><span /><span /></label>
@@ -87,7 +87,7 @@ const Footer = () => (
   <footer className="footer" role="contentinfo">
     <div className="footer__in wrap">
       <div className="footer__brand">
-        <img src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" />
+        <Image src="/logo.svg" alt="Espaço Invisível Logo" className="logo-img" width={120} height={40} />
         <p>Gerador gratuito de espaços invisíveis para jogos e redes sociais.</p>
         <div className="footer__soc">
           <a href="https://www.facebook.com/profile.php?id=61573868490259" target="_blank" rel="noopener noreferrer" aria-label="Facebook">fb</a>
@@ -180,7 +180,7 @@ export default function BlogDiscord() {
                 Você já se perguntou como alguns usuários do Discord têm aqueles nomes de usuário elegantes e minimalistas com espaçamento perfeito? Ou como os melhores servidores de jogos têm aquelas listas de canais limpas e organizadas com divisores invisíveis? O segredo está nos <Link href="/">espaços invisíveis</Link> – caracteres especiais que ocupam espaço na tela, mas não são vistos.
               </p>
               <figure className="fig-img">
-                <img src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord" width={800} height={600} loading="lazy" />
+                <Image src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord" width={800} height={600} loading="lazy" />
                 <figcaption>Como usar espaços invisíveis em nomes de usuário e canais do Discord</figcaption>
               </figure>
               <p>
@@ -196,7 +196,7 @@ export default function BlogDiscord() {
             <div className="prose">
               <h2 id="h2-porque" className="sh2">Por que usar espaços invisíveis no Discord</h2>
               <figure className="fig-img">
-                <img src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord-1.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord" width={300} height={300} loading="lazy" />
+                <Image src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord-1.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord" width={300} height={300} loading="lazy" />
                 <figcaption>Como usar espaços invisíveis em nomes de usuário e canais do Discord - 1</figcaption>
               </figure>
 
@@ -247,7 +247,7 @@ export default function BlogDiscord() {
             <div className="prose">
               <h2 id="h2-nome" className="sh2">Como adicionar espaços invisíveis ao seu nome de usuário do Discord</h2>
               <figure className="fig-img">
-                <img src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord-3.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord - 3" width={300} height={300} loading="lazy" />
+                <Image src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord-3.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord - 3" width={300} height={300} loading="lazy" />
                 <figcaption>Como usar espaços invisíveis em nomes de usuário e canais do Discord - 3</figcaption>
               </figure>
 
@@ -312,7 +312,7 @@ export default function BlogDiscord() {
             <div className="prose">
               <h2 id="h2-servidor" className="sh2">Uso de personagens invisíveis para a organização do servidor do Discord</h2>
               <figure className="fig-img">
-                <img src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord-2.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord - 2" width={300} height={300} loading="lazy" />
+                <Image src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord-2.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord - 2" width={300} height={300} loading="lazy" />
                 <figcaption>Como usar espaços invisíveis em nomes de usuário e canais do Discord - 2</figcaption>
               </figure>
 
@@ -365,7 +365,7 @@ export default function BlogDiscord() {
             <div className="prose">
               <h2 id="h2-truques" className="sh2">Truques avançados de formatação do Discord</h2>
               <figure className="fig-img">
-                <img src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord-4.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord - 4" width={300} height={300} loading="lazy" />
+                <Image src="/Como-usar-espacos-invisiveis-em-nomes-de-usuario-e-canais-do-Discord-4.webp" alt="Como usar espaços invisíveis em nomes de usuário e canais do Discord - 4" width={300} height={300} loading="lazy" />
                 <figcaption>Como usar espaços invisíveis em nomes de usuário e canais do Discord - 4</figcaption>
               </figure>
 
