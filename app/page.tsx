@@ -148,7 +148,7 @@ export default function HomePage() {
               <li><Link href="/">Início</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/sobre-nos">Sobre Nós</Link></li>
-              <li><Link href="/contato">Contato</Link></li>
+              <li><Link href="/contacto">Contacto</Link></li>
             </ul>
           </nav>
         </div>
@@ -837,13 +837,14 @@ export default function HomePage() {
               <a href="https://www.facebook.com/profile.php?id=61573868490259" target="_blank" rel="noopener noreferrer" aria-label="Facebook">fb</a>
               <a href="https://www.youtube.com/@espaco-invisivel" target="_blank" rel="noopener noreferrer" aria-label="YouTube">yt</a>
               <a href="https://www.pinterest.com/espacoinvisivelhelp" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">pt</a>
+              <a href="https://www.tiktok.com/@support2668" target="_blank" rel="noopener noreferrer" aria-label="TikTok">tk</a>
             </div>
           </div>
           <nav className="footer__nav" aria-label="Links do rodapé">
             <p className="footer__nt">Páginas</p>
             <ul>
               <li><Link href="/sobre-nos">Sobre Nós</Link></li>
-              <li><Link href="/contato">Contato</Link></li>
+              <li><Link href="/contacto">Contacto</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/politica-de-privacidade">Política de Privacidade</Link></li>
               <li><Link href="/termos-e-condicoes">Termos e Condições</Link></li>
