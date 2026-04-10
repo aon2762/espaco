@@ -951,7 +951,7 @@ export default function HomePage() {
 
         /* ══ HERO ══ */
         .hero { position: relative; overflow: hidden; background: linear-gradient(145deg,#060f24 0%,#0c2660 55%,#0e3590 100%); color: white; padding: 88px 0 96px; }
-        .hero__orb { position: absolute; border-radius: 50%; pointer-events: none; filter: blur(90px); }
+        .hero__orb { position: absolute; border-radius: 50%; pointer-events: none; filter: blur(90px); will-change: filter; transform: translateZ(0); }
         .hero__orb--1 { width: 560px; height: 560px; background: rgba(26,86,219,.28); top: -160px; right: -80px; }
         .hero__orb--2 { width: 440px; height: 440px; background: rgba(240,90,26,.17); bottom: -130px; left: -60px; }
         .hero__in { position: relative; z-index: 1; }
