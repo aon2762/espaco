@@ -19,6 +19,9 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Espaço Invisível - Gerador de Espaço Invisível",
   description: "Use nosso Gerador de Espaço Invisível para criar espaços em branco em nomes do FreeFire, Instagram e mais. Torne seu perfil único e atraente!",
+  other: {
+    "google-adsense-account": "ca-pub-4270343521061804",
+  },
 };
 
 export default function RootLayout({
