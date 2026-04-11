@@ -131,7 +131,7 @@ export default function SobreNosPage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>
@@ -321,7 +321,7 @@ export default function SobreNosPage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>

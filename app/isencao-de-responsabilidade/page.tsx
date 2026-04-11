@@ -130,7 +130,7 @@ export default function IsencaoDeResponsabilidadePage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>
@@ -296,7 +296,7 @@ export default function IsencaoDeResponsabilidadePage() {
 
               <div className="cta-box">
                 <p>Dúvidas ou preocupações? Estamos aqui para ajudar!</p>
-                <Link href="/contato" className="btn btn--primary">
+                <Link href="/contacto" className="btn btn--primary">
                   Entre em Contato
                 </Link>
               </div>
@@ -360,7 +360,7 @@ export default function IsencaoDeResponsabilidadePage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>

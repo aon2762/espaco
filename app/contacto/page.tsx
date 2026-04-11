@@ -1,4 +1,4 @@
-// app/contato/page.tsx — Espaço Invisível — Contact Page
+// app/contacto/page.tsx — Espaço Invisível — Contact Page
 // Next.js 13+ App Router
 
 import type { Metadata } from "next";
@@ -20,16 +20,16 @@ export const metadata: Metadata = {
     "atendimento",
   ],
   alternates: {
-    canonical: "https://espacoinvisivel.com.br/contato",
+    canonical: "https://espacoinvisivel.com.br/contacto",
     languages: {
-      "pt-BR": "https://espacoinvisivel.com.br/contato",
+      "pt-BR": "https://espacoinvisivel.com.br/contacto",
     },
   },
   openGraph: {
     title: "Contato | Espaço Invisível",
     description:
       "Entre em contato com a equipe do Espaço Invisível. Estamos aqui para ajudar!",
-    url: "https://espacoinvisivel.com.br/contato",
+    url: "https://espacoinvisivel.com.br/contacto",
     siteName: "Espaço Invisível",
     locale: "pt_BR",
     type: "website",
@@ -80,7 +80,7 @@ export default function ContatoPage() {
       <link
         rel="alternate"
         hrefLang="pt-BR"
-        href="https://espacoinvisivel.com.br/contato"
+        href="https://espacoinvisivel.com.br/contacto"
       />
 
       {/* ── Fonts ── */}
@@ -138,7 +138,7 @@ export default function ContatoPage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>
@@ -429,7 +429,7 @@ export default function ContatoPage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>

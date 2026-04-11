@@ -93,7 +93,7 @@ export default function LetrasDiferentesPage() {
               <li><Link href="/">Inicio</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/sobre-nos">Sobre Nos</Link></li>
-              <li><Link href="/contato">Contato</Link></li>
+              <li><Link href="/contacto">Contato</Link></li>
             </ul>
           </nav>
         </div>
@@ -560,7 +560,7 @@ export default function LetrasDiferentesPage() {
             <p className="footer__nt">Paginas</p>
             <ul>
               <li><Link href="/sobre-nos">Sobre Nos</Link></li>
-              <li><Link href="/contato">Contato</Link></li>
+              <li><Link href="/contacto">Contato</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/politica-de-privacidade">Politica de Privacidade</Link></li>
               <li><Link href="/termos-e-condicoes">Termos e Condicoes</Link></li>

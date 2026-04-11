@@ -130,7 +130,7 @@ export default function TermosPage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>
@@ -373,7 +373,7 @@ export default function TermosPage() {
 
               <div className="cta-box">
                 <p>Tem alguma dúvida sobre os termos?</p>
-                <Link href="/contato" className="btn btn--primary">
+                <Link href="/contacto" className="btn btn--primary">
                   Entre em Contato
                 </Link>
               </div>
@@ -437,7 +437,7 @@ export default function TermosPage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>
