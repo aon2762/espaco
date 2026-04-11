@@ -130,7 +130,7 @@ export default function PoliticaDePrivacidadePage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>
@@ -331,7 +331,7 @@ export default function PoliticaDePrivacidadePage() {
 
               <div className="cta-box">
                 <p>Dúvidas sobre sua privacidade?</p>
-                <Link href="/contato" className="btn btn--primary">
+                <Link href="/contacto" className="btn btn--primary">
                   Entre em Contato
                 </Link>
               </div>
@@ -395,7 +395,7 @@ export default function PoliticaDePrivacidadePage() {
                 <Link href="/sobre-nos">Sobre Nós</Link>
               </li>
               <li>
-                <Link href="/contato">Contato</Link>
+                <Link href="/contacto">Contato</Link>
               </li>
             </ul>
           </nav>

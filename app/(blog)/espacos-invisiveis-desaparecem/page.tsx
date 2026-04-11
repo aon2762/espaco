@@ -64,7 +64,7 @@ export default function BlogEspacosInvisiveisDesaparecem() {
               <li><Link href="/">Início</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/sobre-nos">Sobre Nós</Link></li>
-              <li><Link href="/contato">Contato</Link></li>
+              <li><Link href="/contacto">Contato</Link></li>
             </ul>
           </nav>
         </div>
@@ -478,7 +478,7 @@ export default function BlogEspacosInvisiveisDesaparecem() {
             <p className="footer__nt">Páginas</p>
             <ul>
               <li><Link href="/sobre-nos">Sobre Nós</Link></li>
-              <li><Link href="/contato">Contato</Link></li>
+              <li><Link href="/contacto">Contato</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/politica-de-privacidade">Política de Privacidade</Link></li>
               <li><Link href="/termos-e-condicoes">Termos e Condições</Link></li>
