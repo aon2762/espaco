@@ -531,6 +531,7 @@ export default function IsencaoDeResponsabilidadePage() {
             transform: translateX(100%); transition: transform var(--tr);
             z-index: 10000; pointer-events: auto; display: flex; flex-direction: column;
             padding: 28px 24px; overflow-y: auto;
+            isolation: isolate;
           }
           .hdr__nav ul { flex-direction: column; gap: 4px; }
           .hdr__nav a  { font-size: 1.15rem; padding: 13px 16px; }
