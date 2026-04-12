@@ -651,7 +651,8 @@ export default function LetrasDiferentesPage() {
         .footer__brand .logo-img { height: 40px; width: auto; display: block; margin-bottom: 14px; }
 
         /* ══ HEADER ══ */
-        .hdr { position: sticky; top: 0; z-index: 9999; background: rgba(9,30,58,.97); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,.07); }
+        .hdr { position: sticky; top: 0; z-index: 9999; border-bottom: 1px solid rgba(255,255,255,.07); }
+        .hdr::before { content: ''; position: absolute; inset: 0; background: rgba(9,30,58,.97); backdrop-filter: blur(14px); z-index: -1; }
         .hdr__in { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 20px; }
         .hdr__logo img { height: 44px; width: auto; }
         .hdr__nav ul { display: flex; list-style: none; gap: 4px; }
