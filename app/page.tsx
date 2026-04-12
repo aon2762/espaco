@@ -1169,7 +1169,7 @@ export default function HomePage() {
             position: fixed; top: 64px; left: 0; right: 0; bottom: 0;
             background: rgba(9,30,58,.98); backdrop-filter: blur(18px);
             transform: translateX(100%); transition: transform var(--tr);
-            z-index: 199; display: flex; flex-direction: column;
+            z-index: 220; display: flex; flex-direction: column;
             padding: 28px 24px; overflow-y: auto;
           }
           .hdr__nav ul { flex-direction: column; gap: 4px; }
