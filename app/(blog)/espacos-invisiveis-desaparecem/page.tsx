@@ -568,7 +568,7 @@ export default function BlogEspacosInvisiveisDesaparecem() {
         .footer__brand .logo-img { height: 40px; width: auto; display: block; margin-bottom: 14px; }
 
         /* ══ HEADER ══ */
-        .hdr { position: sticky; top: 0; z-index: 200; background: rgba(9,30,58,.97); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,.07); }
+        .hdr { position: sticky; top: 0; z-index: 9999; background: rgba(9,30,58,.97); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,.07); }
         .hdr__in { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 20px; }
         .hdr__logo img { height: 44px; width: auto; }
         .hdr__nav ul { display: flex; list-style: none; gap: 4px; }
@@ -710,7 +710,7 @@ export default function BlogEspacosInvisiveisDesaparecem() {
             position: fixed; top: 64px; left: 0; right: 0; bottom: 0;
             background: rgba(9,30,58,.98); backdrop-filter: blur(18px);
             transform: translateX(100%); transition: transform var(--tr);
-            z-index: 199; display: flex; flex-direction: column;
+            z-index: 9998; pointer-events: auto; display: flex; flex-direction: column;
             padding: 28px 24px; overflow-y: auto;
           }
           .hdr__nav ul { flex-direction: column; gap: 4px; }
