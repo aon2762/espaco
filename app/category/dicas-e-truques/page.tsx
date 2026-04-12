@@ -91,7 +91,7 @@ function Styles() {
     a{color:var(--blue);text-decoration:none}
     img{max-width:100%;display:block}
     .wrap{max-width:1280px;margin:0 auto;padding:0 48px}
-    .hdr{position:sticky;top:0;z-index:200;background:rgba(9,30,58,.97);border-bottom:1px solid rgba(255,255,255,.07)}
+    .hdr{position:sticky;top:0;z-index:9999;background:rgba(9,30,58,.97);border-bottom:1px solid rgba(255,255,255,.07)}
     .hdr__in{display:flex;align-items:center;justify-content:space-between;height:64px}
     .hdr__logo .logo-img{height:44px}
     .hdr__nav ul{display:flex;list-style:none;gap:4px}
