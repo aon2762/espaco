@@ -944,7 +944,7 @@ export default function HomePage() {
         .footer__brand .logo-img { height: 40px; width: auto; display: block; margin-bottom: 14px; }
 
         /* ══ HEADER ══ */
-        .hdr { position: sticky; top: 0; z-index: 9999; background: rgba(9,30,58,.97); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,.07); }
+        .hdr { position: sticky; top: 0; z-index: 50; background: rgba(9,30,58,.97); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,.07); }
         .hdr__in { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 20px; }
         .hdr__logo img { height: 44px; width: auto; }
         .hdr__nav ul { display: flex; list-style: none; gap: 4px; }
@@ -959,7 +959,7 @@ export default function HomePage() {
         .hero__orb { position: absolute; border-radius: 50%; pointer-events: none; filter: blur(90px); }
         .hero__orb--1 { width: 560px; height: 560px; background: rgba(26,86,219,.28); top: -160px; right: -80px; }
         .hero__orb--2 { width: 440px; height: 440px; background: rgba(240,90,26,.17); bottom: -130px; left: -60px; }
-        .hero__in { position: relative; z-index: 1; }
+        .hero__in { position: relative; }
         .hero__badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 26px; }
         .badge { padding: 5px 15px; border-radius: 100px; font-size: .77rem; font-weight: 600; letter-spacing: .05em; background: rgba(255,255,255,.11); border: 1px solid rgba(255,255,255,.18); color: rgba(255,255,255,.88); }
         .hero__h1 { font-family: var(--fh); font-weight: 800; color: #fff; line-height: 1.15; font-size: clamp(1.8rem, 3.8vw, 3.2rem); margin-bottom: 22px; max-width: 960px; }
